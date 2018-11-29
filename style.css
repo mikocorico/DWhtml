@@ -1,0 +1,194 @@
+header{
+  background-color: #FFFFFF;
+}
+
+@font-face {
+  font-family: 'open_sans';
+  src:url('open_sans.ttf');
+}
+
+@font-face {
+  font-family: 'roboto';
+  src:url('roboto.ttf');
+}
+
+@font-face {
+  font-family: 'pistilli';
+  src:url('pistilli.otf');
+}
+
+p, .menu_fin {
+    font-family: 'roboto', Times, sans-serif;
+}
+
+header h1 {
+  /*letter-spacing: 25px;*/
+  font-size: 45px;
+  text-align: center;
+  color: #707070;
+  margin: 0px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+h2, h3 {
+  font-family: 'open_sans',Times,serif;
+}
+
+ul {
+  font-size: 1em;
+  text-decoration: underline;
+  font-family: 'open_sans',Times,serif;
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: 90%;
+  margin: auto;
+
+  color: #707070;
+}
+
+
+li {
+
+  width: 15%;
+  margin-top: 0px;
+  text-align: center;
+  padding: 10px;
+}
+
+li a:hover {
+
+  text-decoration: underline;
+  color: #A8A7A7;
+
+}
+
+li a:visited {
+  color: #707070;
+}
+
+img {
+
+height: auto;
+width: 100%;
+
+}
+
+.p1, .pb {
+
+  width: 50%;
+  text-align: justify;
+  margin: auto;
+  padding: 20px;
+}
+
+#embed_pdf {
+
+width: 75%;
+margin: auto;
+padding: 20px;
+/*height: 100%;*/
+
+display: flex;
+}
+
+.sous_titres {
+
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+#conclusion {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+
+}
+
+.p1_conc {
+
+ width: 50%;
+ margin: auto;
+ text-align: justify;
+
+}
+
+.p2 {
+  width: 25%;
+  margin-top: 0px;
+  padding-right: 20px;
+  text-align: justify;
+  font-style: italic;
+}
+
+.socials {
+  width: 25%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-top: 16px;
+}
+
+.twitter-share-button {
+
+  padding-top: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  background-color: #A29D9D;
+  color: #FFFFFF;
+  font-size: 0.7em;
+}
+
+.footer_pgauche {
+
+  width: 20%;
+  padding: 20px;
+  justify-content: flex-start;
+}
+.menu_fin {
+
+  text-align: left;
+  width: 20%;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_pdroite {
+
+  width: 60%;
+  padding: 20px;
+  justify-content: flex-end;
+
+}
+
+.menu_fin a:visited {
+
+  color: #FFFFFF;
+
+}
